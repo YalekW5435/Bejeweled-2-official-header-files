@@ -1,0 +1,1 @@
+#ifndef __HIGHSCORES_H__#define __HIGHSCORES_H__class HighScores{};#endif //__HIGHSCORES_H__

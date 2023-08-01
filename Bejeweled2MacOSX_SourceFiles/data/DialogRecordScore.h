@@ -1,0 +1,1 @@
+#ifndef __DIALOGRECORDSCORE_H__#define __DIALOGRECORDSCORE_H__class DialogRecordScore{public:};#endif //__DIALOGRECORDSCORE_H__

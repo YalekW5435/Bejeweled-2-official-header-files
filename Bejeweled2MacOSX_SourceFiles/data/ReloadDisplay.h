@@ -1,0 +1,1 @@
+#ifndef __RELOAD_DISPLAY_H__#define __RELOAD_DISPLAY_H__#include "../SexyAppFramework/Widget.h"namespace Sexy{class WinDMApp;class ReloadDisplay : public Widget{	public:	WinDMApp*				mApp;public:	ReloadDisplay(WinDMApp* theApp);	virtual void			Update();	virtual void			Draw(Graphics* g);};}#endif //__RELOAD_DISPLAY_H__

@@ -1,0 +1,1 @@
+#ifndef __GAMEOVERDIALOG_H__#define __GAMEOVERDIALOG_H__#include "../SexyAppFramework/Dialog.h"namespace Sexy{class WinDMApp;class GameOverDialog : public Dialog{	public:	GameOverDialog(WinDMApp* theApp);	virtual int				GetPreferredHeight(int theWidth);	virtual void			Draw(Graphics* g);};}#endif //__GAMEOVERDIALOG_H__
